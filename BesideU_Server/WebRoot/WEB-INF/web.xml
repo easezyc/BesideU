@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>LoginSvt</description>
+    <display-name>LoginSvt</display-name>
+    <servlet-name>LoginSvt</servlet-name>
+    <servlet-class>com.android.control.LoginSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>RegisterSvt</description>
+    <display-name>RegisterSvt</display-name>
+    <servlet-name>RegisterSvt</servlet-name>
+    <servlet-class>com.android.control.RegisterSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>ModSvt</description>
+    <display-name>ModSvt</display-name>
+    <servlet-name>ModSvt</servlet-name>
+    <servlet-class>com.android.control.ModSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>GetheremailSvt</description>
+    <display-name>GetheremailSvt</display-name>
+    <servlet-name>GetheremailSvt</servlet-name>
+    <servlet-class>com.android.control.GetheremailSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Deleteher</description>
+    <display-name>Deleteher</display-name>
+    <servlet-name>Deleteher</servlet-name>
+    <servlet-class>com.android.control.Deleteher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Addher</description>
+    <display-name>Addher</display-name>
+    <servlet-name>Addher</servlet-name>
+    <servlet-class>com.android.control.Addher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Agreeadd</description>
+    <display-name>Agreeadd</display-name>
+    <servlet-name>Agreeadd</servlet-name>
+    <servlet-class>com.android.control.Agreeadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Denyher</description>
+    <display-name>Denyher</display-name>
+    <servlet-name>Denyher</servlet-name>
+    <servlet-class>com.android.control.Denyher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Getapplylist</description>
+    <display-name>Getapplylist</display-name>
+    <servlet-name>Getapplylist</servlet-name>
+    <servlet-class>com.android.control.Getapplylist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Sendmessage</description>
+    <display-name>Sendmessage</display-name>
+    <servlet-name>Sendmessage</servlet-name>
+    <servlet-class>com.android.control.Sendmessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Getboardlist</description>
+    <display-name>Getboardlist</display-name>
+    <servlet-name>Getboardlist</servlet-name>
+    <servlet-class>com.android.control.Getboardlist</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginSvt</servlet-name>
+    <url-pattern>/servlet/LoginSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterSvt</servlet-name>
+    <url-pattern>/servlet/RegisterSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModSvt</servlet-name>
+    <url-pattern>/servlet/ModSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetheremailSvt</servlet-name>
+    <url-pattern>/servlet/GetheremailSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deleteher</servlet-name>
+    <url-pattern>/servlet/Deleteher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addher</servlet-name>
+    <url-pattern>/servlet/Addher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Agreeadd</servlet-name>
+    <url-pattern>/servlet/Agreeadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Denyher</servlet-name>
+    <url-pattern>/servlet/Denyher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getapplylist</servlet-name>
+    <url-pattern>/servlet/Getapplylist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sendmessage</servlet-name>
+    <url-pattern>/servlet/Sendmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getboardlist</servlet-name>
+    <url-pattern>/servlet/Getboardlist</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
